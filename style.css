@@ -491,7 +491,7 @@ footer {
 
 
 #shape1 {
-    background-image: url("shape1.jpg");
+    background-image: url("img/shape1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
@@ -503,7 +503,7 @@ footer {
     opacity: .7;
 }
 #shape2 {
-    background-image: url("shape2.jpg");
+    background-image: url("img/shape2.jpg");
     background-repeat: no-repeat;
     background-position: 8% top;
     background-size: 40%;
@@ -515,7 +515,7 @@ footer {
     opacity: 1;
 }
 #shape3 {
-    background-image: url("shape3.jpg");
+    background-image: url("img/shape3.jpg");
     background-repeat: repeat;
     background-position: bottom;
     background-size: 30%;
