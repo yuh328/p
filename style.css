@@ -294,12 +294,19 @@ textarea[type=text]{
 
 #button{
   border: none;
-  background: gray;
+  background: orange;
+  padding:10px;
   color: white;
+  font--size:30px;
+  font-weight: bolder;
   text-decoration:none;
   position: review;
   margin-left: 45%;
   cursor:pointer;
+}
+
+#button:hover{
+  background: gray;
 }
 
 footer {
