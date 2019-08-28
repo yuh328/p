@@ -26,10 +26,6 @@ a:link {
   text-decoration: none;
 }
 
-a.selected:link, a.selected:visited{
-  background-color: gray;
-}
-
 a:hover {
   color: white;
   background: gray;
@@ -40,8 +36,11 @@ a{
   text-transform: uppercase;
   display: flex;
   font-size: 10px;
-  padding: 3px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar a{
+  padding: 3px;
 }
 
 .myname h3{
@@ -75,7 +74,7 @@ a{
   margin-left: 780px;
   font-size: 15px;
   font-weight: bolder;
-  -webkit-transition: all 2s; /* Safari 3.1 to 6.0 */
+  -webkit-transition: all 2s;
   transition: all 2s ease;
   transition-timing-function: ease;
 }
@@ -172,30 +171,68 @@ h3{
 }
 
 .line{
-width: 40px;
-border-bottom: 5px solid black;
+  width: 80px;
+  margin-left: 780px;
+  border-bottom: 5px solid black;
 }
 
-.project {
-  margin-top: 30%;
+.project video{
+  border:5px solid plum;
+  margin-top: 20%;
   margin-left:20%;
   font-family:Courier New;
-  font-size: 12px;
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float:left;
 }
 
-.project p{
-  margin-left:26%;
-  list-style-type:square;
+.projecttext{
+  margin-top: 35%;
+  margin-left: 43%;
+  padding-left:60px;
+  padding-top:30px;
+  padding-right:30px;
+  padding-bottom:30px;
+  font-family:Courier New;
+  font-size: 13px;
+  border: 5px dashed plum;
+  width:400px;
 }
 
-.project ul{
-  margin-left:25%;
-  list-style-type:square;
+#projecttext2{
+  margin-top: -660px;
+  margin-left: 530px;
+  padding-left: 30px;
+  padding-right: 10px;
+  border: 7px orange;
+  border-style: double;
 }
-.project-line{
-  width: 40px;
-  margin-left:260px;
-  border-bottom: 5px solid black;
+
+.projecttext ul{
+  list-style-type: square;
+  background-color: none;
+}
+
+
+.projecttext a:hover{
+  background-color: white;
+  color:pink;
+}
+
+#project-checkout a:active{
+  background-color: none;
+  background: none;
+}
+
+
+#project2{
+  margin-top: 40px;
+  padding-left: 200px;
+  width:650px;
+  border:5px solid pink;
 }
 
 .contact{
@@ -525,4 +562,48 @@ footer {
     height: 100vw;
     z-index: -2;
     opacity: .9;
+}
+
+.box{
+  margin: 500px;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:700px;
+  padding: 20px;
+  background: tomato;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+  display: flex;
+  transition: 0.5s;
+}
+
+.box:hover{
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box a{
+  position: absolute;
+  margin-left: 480px;
+  margin-top:250px;
+  font-size:20px;
+  color:white;
+  font-weight: bolder;
+  -webkit-animation: flash 5s  infinite;
+  animation-name: flash 5s infinite;
+}
+
+.box a:hover{
+  color:tomato;
+  background-color: white;
+  -webkit-animation: none;
+  animation-name: none;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 92%;
+  border-style: solid;
+  border-width: 3.5px;
 }

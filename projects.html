@@ -18,7 +18,7 @@
           <a href="projects.html">About Me</a>
         </li>
         <li class="sidebar-item">
-          <a href="projects.html#projectpage">Projects</a>
+          <a href="projects.html#project">Projects</a>
         </li>
         <li class="sidebar-item">
           <a href="index.html#contact">Contact</a>
@@ -42,13 +42,13 @@
     </div>
 
     <div class="aboutme" id="aboutme">
-      <h3>About me</h3>
-      <div class="line"></div>
+      <h3>About me<br></h3>
+      <hr>
       <p>Welcome to my page!<br>My name is Yuanyuan Huang, I am currently pursuing
         <br>my B.S. degree in computer science at the University<br>of California, San Diego.
         <br>I love coding! I usually program in C++, Java, and Python.<br>Feel free to check
-        out my projects in the link.<br>Besides coding, I love
-         to explore different countries.<br>The diverse culture I came across shaped my
+        out my projects in the link below.<br>Besides coding, I love
+        exploring different countries.<br>The diverse culture I came across shaped my
          outlooks and values.<br>I would like to travel around the world in the future.
        </p>
     </div>
@@ -85,30 +85,52 @@
     </div>
 
     <!-- my project -->
-    <div class="projectpage" style="float:left;padding-left:300px;padding-top:300px" >
-      <video autoplay muted loop src="img/project.mov" height="300" width="200">
+    <div class="project" >
+      <video id="project"  autoplay muted loop src="img/project.mov" height="300" width="200">
     </div>
-
-    <div class="project" id="projectpage">
-      <h3>Projects</h3>
-      <div class="project-line"></div>
-      <p >Android App Project - Personal Best<br>Basic Function:
+    <div class="projecttext">
+      <h3>Project</h3>
+      <hr>
+      <p>Android App Project - Personal Best<br>Basic Functions:
         <ul>
           <li>Login with Google Account</li>
           <li>Chasing walking steps</li>
-          <li>Chasing intense exercise steps (running)</li>
+          <li>Chasing deliberate exercise(running) steps </li>
+          <li>Set steps goal</li>
           <li>View personal exercise history</li>
           <li>Add friends</li>
           <li>Chat with friends</li>
           <li>View friends' exercise history</li>
           <li>Receiving reminding notification of exercise</li>
         </ul>
+        <a id="project-checkout" style="font-weight:bolder" href="https://github.com/yuh328/AndriodApp-MySteps">check out >></a>
       </p>
     </div>
 
+    <div class="box" id="box">
+      <img src="img/project2.png" height="300" width="450">
+      <h3 style="padding:30px;color:white">ISA (Industry Standard Architecture) - MMP</h3>
+      <a class="project-checkout" href="https://github.com/yuh328/AndriodApp-MySteps">check out >></a>
+    </div>
 
+    <div class="projecttext" id="projecttext2">
+      <h3>project</h3>
+      <hr>
+      <p>9 Bits Industry Standard Architecture - MMP<br>Basic Operations:<br>
+        <ul>
+          <li>AND, XOR, LD, SW, BNE, ADD</li>
+          <li>MOV, SLL, SRL, HALT</li>
+          <li>JR, INC</li>
+        </ul>
+        <br>Supports:
+        <ul>
+          <li>8 registers: R0-R7</li>
+          <li>Maximum branch distance: 2<sup>5</sup></li>
+          <li>Direct jump</li>
+        </ul>
+      </p>
+    </div>
   </body>
-
   <footer>
     <a href="#" class="fa fa-facebook"></a>
     <a href="#" class="fa fa-instagram"></a>
